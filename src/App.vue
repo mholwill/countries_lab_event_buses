@@ -42,5 +42,6 @@ export default {
 .box-container {
   display: flex;
   justify-content: space-between;
+  width: 40%;
 }
 </style>
