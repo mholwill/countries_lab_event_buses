@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>COUNTRIES</h1>
+    <h1>Countries<span>dot</span></h1>
     <div class="box-container">
       <countries-list :countries='countries'></countries-list>
       <country-detail :country='selectedCountry'></country-detail>
@@ -39,9 +39,22 @@ export default {
 </script>
 
 <style>
+
+#app{
+  text-align: center;
+}
 .box-container {
   display: flex;
   justify-content: space-between;
   width: 40%;
+}
+
+h1 {
+  font-size: 120px;
+}
+
+h1 span {
+  font-size: 40px;
+  color: #89B802;
 }
 </style>

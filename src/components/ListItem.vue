@@ -22,10 +22,13 @@ export default {
 
 li {
   cursor: pointer;
+  list-style-type: none;
+  border: 1px dotted hotpink;
+  margin: 10px;
 }
 
 li:hover {
-  color: red;
+  background-color: blue;
 }
 
 </style>
